@@ -1,0 +1,125 @@
+Front-End aka UI -> User interface
+    -> Is what user sees and interacts with
+Back-end:
+    -> Everything else other than the front end
+    -> All of the calculations, business logic goes into back end
+    -> The documents that are going to be displayed on the front-end are constructed/built in the back-end.
+HTML -> Hypertext Markup Language
+    - H T M L
+    - It is a mark up language, not a programming language.
+    - Since it is not a programming language it does not have any programing logic such as loops or if conditions.
+    - HTML uses TAGS to create structure in the page.
+CSS -> Cascading style sheets
+    - It is used to give style to EXISTING HTML structure.
+    - IF there is no HTML you cannot use CSS.
+JAVASCRIPT -> JS
+    - It is used to give behavior on the existing HTML + CSS.  
+    CAR - CARPET
+    APPLE - PINEAPPLE
+    EGG - EGGPLANT
+    JAVA - JAVASCRIPT
+What is a web element?
+    -> Everything we see on a web page is a web element
+    ex: buttons, links, images etc.
+What is a tag?
+    -> A tag is like a container in HTML page.
+    -> It allows us to give certain structure to the content in it.
+    -> We create a tag, and then we pass some information into that tag.
+    -> Then we are able to see the result of using that tag.
+We have 2 types of tags:
+    -> #1 : paired tag:
+        - It has opening tag and closing tag.
+        syntax: <tagName> CONTENT GOES HERE </tagName>
+    -> #2 : unpaired tags : self-closing tag
+        - It does not have a closing tag, BECAUSE it is self-closing.
+        syntax: <tagName attributes go here> 
+
+
+HTML STRUCTURE:
+ -> DOCTYPE DECLARATION:
+    -> Tells our browser which version of the HTML we are using.
+    -> So that our browser knows what version and how to treat it.
+ -> HTML tag :
+    -> HTML Tag is the root/parent/ascendent of all of the other web elements on the page.
+    -> Which means everything else goes into HTML tag.
+ -> HEAD tag:
+    -> HEAD tag is where everything that is NOT displayed on the page is stored.
+    -> Such as titles, links, font styles etc.
+ -> BODY tag: 
+    -> BODY tag is where all the content that is displayed on the page is stored.
+    -> Everything you see as a user is displayed here.
+To save in sublime text using shortcuts:
+    MAC     : COMMAND + S
+    WINDOWS : CONTROL + S 
+To comment out in HTML type of file:
+    <!-- --> You need to use this.
+    or
+    SHORTCUT
+    MAC: You can press option + /
+    WINDOWS : You can press control + /
+
+
+
+#1  -> TITLE TAG
+        - It is used to store the title of the page.
+            
+        syntax: <title>Google</title>   
+            --> "Google" text will be displayed on the tab inside of my browser.
+#2  -> H tag - HEADERS
+        - Headers are used to create different types of headers.
+        - Starts from <h1> and goes upto <h6>
+        - The bigger the number, the smaller the text will be.
+        - h1 is used for main header
+        - h2 is used for sub-header
+#3  -> P tag - PARAGRAPHS
+        - We use this tag to store some longer texts as paragraph
+#4  -> LINE BREAK -> <br>
+        - Pushes everything that come after to the next line
+#5  -> HORIZONTAL RULER -> <hr>
+        - Creates a single line that divides the page
+#6  -> <strong> :
+        - Makes the text bolded
+        - strong is a paired tag
+#7  -> <em> :
+        - Makes the text italic / emphasized        
+        - em is a paired tag
+#8  -> <u> :
+        - Makes the text underlined.
+        - u is also a paired tag
+
+
+What is an attribute?
+    - Attributes provide additional information about the specific tag they are being passed in
+    - Attribute always goes into the opening tag
+    - We can pass more than one attribute inside of the opening tag
+    <openingTag attribute="attributeValue">CONTENT HERE</closingTag>
+                <-name---><----value------>
+    ex#1:
+            <hr size="20px">
+    what is tagName: 
+        - hr        
+    what is attribute name: 
+        - size
+    what is attribute value:
+        - 20px
+    ex#2 : <h2 style="color:blue">COLORFUL HEADER</h2>
+    Which one is my tag name?
+        - h2
+    Which one is the content/text of my web element?
+        - COLORFUL HEADER
+    Which one is my attribute (name)?
+        - style
+    Which one is my attribute value?
+        - color:blue
+
+
+HOW TO CREATE LISTS IN HTML?
+    - There are two types of lists in HTML
+    #1 : Ordered List
+        - Ordered lists are basically just numbered lists.
+        - Ordered lists are created using <ol> : ol stands for ordered list
+        - Each list item is created using <li> : li stands for list item
+    #2 : Unordered List
+        - Unordered List are basically list items without numbers.
+        - Created using <ul> : stands for unordered list
+        - Each list item is created using <li> : li stands for list item

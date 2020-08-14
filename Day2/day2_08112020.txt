@@ -1,0 +1,177 @@
+AUG 11th, Tuesday
+What we will do?
+#1 - Recap
+#2 - Warm up task
+#1 - Recap
+    What is front end?
+        -> Everything we see on a web page is front-end.
+        -> UI is another name of the front-end.
+        -> User interface
+    What is back-end?
+        -> Everything else. Everything other than the front-end is considered back-end.
+    What do we have in the back-end?
+        -> Business logic, business calculations etc happens in the back-end
+        -> Servers, database, API etc.
+    What is HTML?
+        -> HTML : Hypertext markup language
+        -> HTML is used to create certain structure in a web page.
+        -> It uses tags to create that structure.
+    What is a tag?
+        -> Tags act like containers in HTML.
+        -> Different types of tags will create different types of structure.
+        -> Whatever we put in a tag, will be displayed in that tags special structure.
+            ex: <h1> the font will be big
+                <h6> the font will be small
+    How many types of tags are there?
+        -> 2 types of tags.
+        #1- Paired Tags     : 
+            -> Paired tags has both opening and closing tags.
+            ex syntax: <tag> content </tag>
+            ex: - <strong> </strong>
+                - head
+                - em
+                - ol
+                - ul
+                - li
+                - p
+                - h1
+                - title
+                - body
+                - html
+        #2- Unpaired Tags   :           
+            - Self closing tags.
+            - If a tag does not have a closing tag, it means it is unpaired tag, self closing tag.
+            syntax: < tag />
+            ex: - <hr>
+                - <br>
+                - <img> 
+HTML STRUCTURE:
+    
+    - The structure that we need to follow to create a correct HTML document.
+    #1 - Doctype declaration
+        -> Tells our browser which version of HTML is being used.
+    #2 - HTML tag:
+        -> HTML tag is the parent/ascendent of every other web element that comes into the HTML document.
+    #3 - Head tag: 
+        -> Everything that is not displayed on the page goes into <head> tag.
+        -> such as: titles, <link> etc.
+    #4 - Body tag:
+        -> Everything we see on the page goes into the body tag.
+What tags we have covered so far?
+    - <p>     : 
+        - Stands for paragraph.
+        - And is used to store longers texts.
+    - <title>
+        - Title tag stores the title of the page.
+        - Title is displayed in the tab
+        - Title is what comes up when you search something in the search engine.
+    - <br>
+        - Stands for line break.
+        - Basically it just pushes everything that comes after it to a next line.
+    - <hr>
+        - Stands for horizontal ruler.
+        - It just creates a single line ruler in the web page.
+    - <em>
+        - Stands for emphasized
+        - It makes the text italic, just a little bit tilted to the right.
+    - <strong> , <b> (not deprecated yet) 
+        - It makes the text bolded.
+    - <u>
+        - Stands for underlined.
+        - It creates an underlining to the text it surrounds.
+    - <ul> 
+        - Stands for unordered list.
+        - List items created using <li>
+        - List items will be displayed WITHOUT any number, just as bullet points.
+    - <ol>
+        - Stands for ordered list
+        - List items created using <li>
+        - List items will be displayed WITH numbers.
+    
+    - <h1> through <h6>
+        - This is for headers.
+        - <h1> is for main header
+        - <h2> is for sub-header
+        - The bigger the number, the smaller the text.
+What is an attribute?
+    - An attribute is created in the opening tag of any tag.
+    - Attributes provides additional information about that specific tag.
+    - We can have more than one attribute for tags.
+    - Tags are always inside of the diamond brackets of opening tag <>
+    syntax: <openingTag attribute="value"> content goes here </closing tag>
+    ex: <h1 style="color:blue"> this is my header </h1>
+HOW TO CREATE A NEW HTML FILE?
+    - Open sublime
+    - File > New File
+    - Without writing anything, Save as .html file
+        How do we save as html? -> we just add .html at the end of the name
+    - Then it is ready to use.  
+HTML IMAGES:
+    - Created using <img> tag.
+    - <img> tag is a self-closing tag.
+    - img tag has one attribute called src
+    - we need to pass the path of the image that we want to display on the page.
+How to get path of a file?
+If the image and the html file is in the same directory/folder just the image file name and extension is good enough path.
+    ex: bugatti.jpg
+MAC : 
+    Option #1:
+    - Right click 
+    - Press and hold option button from keyboard
+    - Select "copy as path name"
+    Option #2:
+    - Right click
+    - Select "Get info"
+    - Copy from "Where"
+WINDOWS : 
+    Option #1
+    - Right click -> Select properties
+    - Copy the text from "Location", and paste it into the src in html page.
+    Option #2:
+    - Right click on the picture 
+        ->properties 
+            -> click on security "You can find the path from there"
+Lets see which one is attribute, tag, and value:
+ex:
+<img src="/Users/cybertekchicago-1/Desktop/HTML Class/bu.jpg" width="400px" >
+    tag: img
+    attributes : src and width
+    attribute values : 
+        -> attribute value of src: /Users/cybertekchicago-1/Desktop/HTML Class/bu.jpg
+        -> value of the width attribute: 400px
+A TAG : ANCHOR TAG
+    - <a> Stands for ANCHOR
+    - <a> tag is used for creating links in HTML
+    - <a> tag is a paired tag
+    - <a> must have href attribute inside of it for the link to work properly.
+    - User will be taken to whatever address is passed in the href attribute
+    syntax: <a href="https://www.facebook.com"> text displayed on the page </a>
+    ex: <a href="https://www.facebook.com"> FACEBOOK </a>
+        Which text is displayed on the page?
+        -> "FACEBOOK" is displayed on the page
+        Where is the user taken when the link is clicked? 
+        -> The user will be taken to whatever is passed in the href value, in this case: https://www.facebook.com
+CREATING TABLES IN HTML FILE:
+    - Tables are created using <table> tag
+    - In each table, you need to create the row first.
+        - Each row is created using <tr>
+            tr: stands for "table row"
+    - Then you need to create the cells inside of each row.
+        - Each cell can be created using <td> or <th>
+            td : table data
+            th : table header
+    #1 : Create a <table> tag.
+    #2 : You can create <thead> : and put headers in this tag
+    #3 : You can create <tbody> : and put the content of the table in here
+    #4 : Create each row using <tr>
+    #5 : Create each cell in each row using <td> (if its a header you can use <th>)
+div ELEMENT :
+    - Is a BLOCK LEVEL container.
+    - It is just a container to group things together so that developers can apply some certain styling or condition on them.
+span ELEMENT :
+    - INLINE version of div.
+    - Smaller container that allows us to give styling to smallar parts of the HTML
+input ELEMENT : 
+    - <input> tag is used to accept some data from the user.
+    - It can be multiple types of data: 
+        such as : username, password, checkboxes, radiobutton, colorpicker
